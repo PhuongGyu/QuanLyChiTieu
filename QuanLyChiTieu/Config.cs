@@ -25,10 +25,7 @@
                 return connectionSTR;
             }
 
-            set
-            {
-                connectionSTR = value;
-            }
+           
         }
     }
 }
