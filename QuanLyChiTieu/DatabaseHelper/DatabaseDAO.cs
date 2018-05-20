@@ -104,28 +104,6 @@ namespace Demo.DatabaseHelper
         /*
          * Xử dụng trong việc lấy ra giá trị của các câu select count(*),...
          */
-        public object execScalar(string query)
-        {
-            try
-            {
-                conn.Open(); // open connection
-
-                SqlCommand command = new SqlCommand(query, conn);
-                object result = command.ExecuteScalar(); // exec query
-
-                conn.Close(); // close connection
-                return result;
-            }
-            catch (SqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            catch (InvalidOperationException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            return null;
-        }
-
+        
     }
 }
