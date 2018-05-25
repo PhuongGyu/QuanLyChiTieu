@@ -21,7 +21,7 @@ namespace Demo
 
             if (Int32.TryParse(txbMoney.Text, out money))
             {
-                if (DatabaseHelper.DatabaseProcess.updateMoney(money))
+                if (DatabaseHelper.DatabaseProcess.updateMoney(money)) // goi ham su ly database
                 {
                     MessageBox.Show("Thêm thành công");
                 }

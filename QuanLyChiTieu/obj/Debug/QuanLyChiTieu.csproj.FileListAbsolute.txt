@@ -68,7 +68,5 @@ D:\QuanLyChiTieu\QuanLyChiTieu\obj\Debug\Demo.PresentUI.resources
 D:\QuanLyChiTieu\QuanLyChiTieu\obj\Debug\QuanLyChiTieu.Properties.Resources.resources
 D:\QuanLyChiTieu\QuanLyChiTieu\obj\Debug\Demo.SpendUI.resources
 D:\QuanLyChiTieu\QuanLyChiTieu\obj\Debug\QuanLyChiTieu.csproj.GenerateResource.Cache
-D:\QuanLyChiTieu\QuanLyChiTieu\bin\Debug\db\SpendManagement.mdf
-D:\QuanLyChiTieu\QuanLyChiTieu\bin\Debug\db\SpendManagement_log.ldf
 D:\QuanLyChiTieu\QuanLyChiTieu\bin\Debug\QuanLyChiTieu.exe
 D:\QuanLyChiTieu\QuanLyChiTieu\bin\Debug\QuanLyChiTieu.pdb

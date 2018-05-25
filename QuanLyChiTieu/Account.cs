@@ -21,7 +21,7 @@ namespace Demo
         {
             Hide();
             Login login = new Login();
-            login.FormClosed += Login_FormClosed;
+            login.FormClosed += Login_FormClosed;// su kien dong cua so login
             login.ShowDialog();
         }
 

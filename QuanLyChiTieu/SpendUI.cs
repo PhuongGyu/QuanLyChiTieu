@@ -25,7 +25,7 @@ namespace Demo
             if (txbMoney.Text != "" && txbNameSpend.Text != "")
             {
                 int money = 0;
-                if (Int32.TryParse(txbMoney.Text, out money))
+                if (Int32.TryParse(txbMoney.Text, out money)) // money phai la so
                 {
                     Spend spend = new Spend();
                     spend.Name = txbNameSpend.Text;

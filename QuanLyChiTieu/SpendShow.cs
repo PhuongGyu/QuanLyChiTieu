@@ -21,9 +21,6 @@ namespace Demo
 
             NameDiary = name;
             Money = money.ToString();
-
-            txbName.DataBindings.Add(new Binding("Text", this, "NameDiary"));
-            txbMoney.DataBindings.Add(new Binding("Text", this, "Money"));
         }
 
         public string NameDiary

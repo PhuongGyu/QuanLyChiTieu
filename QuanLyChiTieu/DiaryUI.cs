@@ -17,7 +17,7 @@ namespace Demo
         {
             InitializeComponent();
 
-            dtpkDate.ValueChanged += DtpkDate_ValueChanged;
+            dtpkDate.ValueChanged += DtpkDate_ValueChanged; // su kien thay doi ngay tren datetimepicker
             dtpkDate.Value = DateTime.Now;
         }
 
@@ -32,6 +32,7 @@ namespace Demo
             flpShow.Controls.Clear();
             // lấy các chi tiêu của ngày date lên và load vào view
             List<Spend> spends = DatabaseHelper.DatabaseProcess.loadSpend(date);
+            // hien thi ra lich su chi tieu
             if (spends != null && spends.Count > 0)
             {
                 foreach(var spend in spends)

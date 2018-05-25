@@ -38,6 +38,7 @@
             this.txbName.Location = new System.Drawing.Point(2, 0);
             this.txbName.Margin = new System.Windows.Forms.Padding(1, 3, 3, 3);
             this.txbName.Name = "txbName";
+            this.txbName.ReadOnly = true;
             this.txbName.Size = new System.Drawing.Size(165, 29);
             this.txbName.TabIndex = 0;
             this.txbName.Text = "Ăn Sáng";
@@ -47,17 +48,18 @@
             this.txbMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbMoney.Location = new System.Drawing.Point(167, 0);
             this.txbMoney.Name = "txbMoney";
+            this.txbMoney.ReadOnly = true;
             this.txbMoney.Size = new System.Drawing.Size(90, 29);
             this.txbMoney.TabIndex = 1;
             this.txbMoney.Text = "20000";
             // 
-            // DiaryShow
+            // SpendShow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.txbMoney);
             this.Controls.Add(this.txbName);
-            this.Name = "DiaryShow";
+            this.Name = "SpendShow";
             this.Size = new System.Drawing.Size(258, 30);
             this.ResumeLayout(false);
             this.PerformLayout();

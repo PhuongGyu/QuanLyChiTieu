@@ -24,7 +24,7 @@ namespace Demo
 
         private void AccountManager_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (Config.Username != "")
+            if (Config.Username != "") // dang nhap thanh cong
             {
                 SpendUI spendUI = new SpendUI();
                 showControl(spendUI);
